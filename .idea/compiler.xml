@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="jenkins-test" />
+        <module name="jenkins-test-kit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jenkins-test" target="1.8" />
+      <module name="jenkins-test-kit" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
